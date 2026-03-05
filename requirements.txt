@@ -6,3 +6,4 @@ statsmodels
 litellm
 python-dotenv
 openpyxl
+anthropic
