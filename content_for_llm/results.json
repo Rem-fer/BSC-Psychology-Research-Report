@@ -1,0 +1,104 @@
+{
+    "multiple_regression": {
+        "model": "z_pickups ~ maas_score + inhibition_score",
+        "r_squared": 0.124,
+        "adj_r_squared": 0.061,
+        "f_statistic": 1.98,
+        "df": [
+            2,
+            26
+        ],
+        "p_value": 0.392,
+        "durbin_watson": 1.56,
+        "predictors": {
+            "maas_score": {
+                "beta": -0.053,
+                "t": -0.258,
+                "p_value": 0.798,
+                "significant": false
+            },
+            "inhibition_score": {
+                "beta": -0.239,
+                "t": -1.165,
+                "p_value": 0.255,
+                "significant": false
+            }
+        }
+    },
+    "simple_regression": {
+        "model": "inhibition_score ~ maas_score",
+        "r_squared": 0.147,
+        "adj_r_squared": 0.115,
+        "f_statistic": 4.652,
+        "df": [
+            1,
+            27
+        ],
+        "p_value": 0.04,
+        "durbin_watson": 1.182,
+        "predictors": {
+            "maas_score": {
+                "beta": 0.383,
+                "t": 2.157,
+                "p_value": 0.04,
+                "significant": true,
+                "unit_change": "1 unit increase in MAAS = 7.77 unit increase in inhibition"
+            }
+        }
+    },
+    "descriptive_stats": {
+        "maas_score": {
+            "mean": 3.91,
+            "sd": 0.69,
+            "skewness": 0.4,
+            "kurtosis": 1.09,
+            "shapiro_w": 0.9574,
+            "shapiro_p": 0.2487,
+            "normal": true
+        },
+        "inhibition_score": {
+            "mean": 48.26,
+            "sd": 14.46,
+            "skewness": 0.06,
+            "kurtosis": -0.6,
+            "shapiro_w": 0.9746,
+            "shapiro_p": 0.6528,
+            "normal": true
+        },
+        "ios_pickups": {
+            "mean": 124.64,
+            "sd": 65.82,
+            "skewness": -0.36,
+            "kurtosis": -0.73,
+            "shapiro_w": 0.9498,
+            "shapiro_p": 0.5571,
+            "normal": true
+        },
+        "non_ios_avg_pickups": {
+            "mean": 59.65,
+            "sd": 34.97,
+            "skewness": 1.95,
+            "kurtosis": 4.33,
+            "shapiro_w": 0.7743,
+            "shapiro_p": 0.0009,
+            "normal": false
+        }
+    },
+    "hypotheses": {
+        "H1": {
+            "description": "MAAS scores will predict phone checking frequency",
+            "supported": false,
+            "notes": "MAAS was not a significant predictor of z_pickups (p = .798)"
+        },
+        "H2": {
+            "description": "Go/No-Go accuracy will predict phone checking frequency",
+            "supported": false,
+            "notes": "Inhibition was not a significant predictor of z_pickups (p = .255)"
+        },
+        "H3": {
+            "description": "MAAS scores will predict Go/No-Go accuracy",
+            "supported": true,
+            "notes": "MAAS significantly predicted inhibition (p = .040)"
+        }
+    }
+}

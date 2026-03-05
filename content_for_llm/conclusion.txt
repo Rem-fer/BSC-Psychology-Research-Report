@@ -1,0 +1,31 @@
+CONCLUSIONS
+
+SUMMARY OF FINDINGS
+The study investigated whether trait mindfulness and inhibitory control predict phone checking frequency, and whether mindfulness predicts inhibitory control. Overall, the results provided limited support for the hypothesised relationships, with the exception of a significant association between trait mindfulness and inhibitory control.
+
+HYPOTHESIS OUTCOMES
+
+H1 - Not Supported
+Trait mindfulness (MAAS) did not significantly predict phone checking frequency (β = -0.053, t = -0.258, p = .798). Higher levels of mindfulness were not associated with reduced phone checking behaviour.
+
+H2 - Not Supported
+Inhibitory control (Go/No-Go accuracy) did not significantly predict phone checking frequency (β = -0.239, t = -1.165, p = .255). The direction of the effect was consistent with the hypothesis, suggesting weaker inhibitory control may be associated with more frequent phone checking, though this did not reach significance.
+
+H3 - Supported
+Trait mindfulness significantly predicted inhibitory control (β = 0.383, t = 2.157, p = .040, R² = 0.147). Higher trait mindfulness was associated with better inhibitory control, with one unit increase in MAAS corresponding to a 7.77-unit increase in inhibition score.
+
+INTERPRETATION
+The absence of significant effects on phone checking frequency may reflect that PCF captures social and habitual phone use rather than compulsive or problematic use. Individuals who are mindful and have good inhibitory control may still check their phones frequently for productive or social purposes. The significant mindfulness-inhibition relationship replicates previous findings, supporting the notion that trait mindfulness is associated with better self-regulation and impulse control.
+
+LIMITATIONS
+- Small sample size (N = 29, recommended N = 68) limits statistical power and generalisability
+- Go/No-Go task used neutral stimuli, phone-specific stimuli may yield different results
+- No measure of Problematic Smartphone Use (PSU) was included
+- Correlational design prevents causal conclusions
+- iOS and Android data required Z-score standardisation due to different measurement methods
+
+FUTURE DIRECTIONS
+- Include PSU measures to identify whether inhibition effects emerge in high-PSU samples
+- Use phone-specific stimuli in cognitive tasks to test cue-reactive inhibition
+- Incorporate screen time alongside checking frequency for a more complete picture
+- Use larger, more representative samples

@@ -1,0 +1,34 @@
+STUDY TITLE
+Exploring the Relationship Between Trait Mindfulness, Inhibition, and Phone Checking Frequency
+
+BACKGROUND
+Problematic Smartphone Use (PSU) is increasingly studied as a behavioural addiction with links to depression, anxiety, and impaired self-regulation. While most research focuses on screen time, phone checking frequency (PCF) may better represent habitual, compulsive use. Individuals with poor inhibitory control are more vulnerable to addictive behaviours, and mindfulness has been shown to enhance inhibitory control. This study investigated whether trait mindfulness and inhibitory control predict PCF, and whether mindfulness predicts inhibition.
+
+RESEARCH QUESTIONS
+- Does trait mindfulness predict phone checking frequency?
+- Does inhibitory control predict phone checking frequency?
+- Does trait mindfulness predict inhibitory control?
+
+HYPOTHESES
+H1: Trait mindfulness scores (MAAS) will predict phone checking frequency.
+H2: Go/No-Go accuracy scores will predict phone checking frequency.
+H3: Trait mindfulness scores will predict Go/No-Go accuracy.
+
+DESIGN
+Correlational online study. Trait mindfulness and inhibition were entered as predictors of phone checking frequency (H1, H2). Trait mindfulness was entered as a predictor of inhibition (H3).
+
+PARTICIPANTS
+N = 29 participants recruited via opportunity sampling (University of Derby Research Participation Scheme, Microsoft Teams, and personal networks). 65.5% female (N=19), 34.5% male (N=10). Mean age = 34 (SD = 11, range = 19-61). 41.4% iOS users (N=12), 58.6% Android/Samsung users (N=17).
+
+MEASURES
+Trait Mindfulness — Mindfulness Attention Awareness Scale (MAAS; Brown & Ryan, 2003). 15 items rated on a 6-point Likert scale (1 = almost always, 6 = almost never). Mean score computed across items. Higher scores reflect higher trait mindfulness. Internal consistency in this study: α = 0.83.
+
+Inhibitory Control — Go/No-Go task (adapted from Toh et al., 2023). 450 trials with a 1:6 No-Go to Go ratio (75 No-Go, 375 Go trials). Participants pressed the spacebar for any letter except X (Go trials) and withheld responses when X appeared (No-Go trials). Inhibition score = number of correct No-Go responses. Higher scores indicate better inhibitory control. Task designed in PsychoPy and administered online via Pavlovia.
+
+Phone Checking Frequency — Objective device data collected directly from participants' smartphones. iOS users provided weekly average pick-ups. Android and Samsung users provided daily unlock counts, which were averaged across the week. Due to systematic differences in values between device types, scores were standardised separately using Z-scores before analysis.
+
+PROCEDURE
+Participants completed an online Qualtrics survey comprising demographic questions, the MAAS, and phone checking frequency data collection. They were then automatically redirected to Pavlovia to complete the Go/No-Go task. Total duration approximately 20 minutes.
+
+ANALYTICAL STRATEGY
+Phone checking frequency Z-scores were calculated separately for iOS and Android/Samsung users to account for measurement differences across device types. A multiple regression was conducted with MAAS and inhibition as predictors of Z-scored phone checking frequency (H1 and H2). A simple linear regression was conducted with MAAS as predictor of inhibition score (H3).
