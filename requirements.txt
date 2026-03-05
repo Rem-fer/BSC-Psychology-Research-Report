@@ -1,0 +1,8 @@
+streamlit
+plotly
+pandas
+scipy
+statsmodels
+litellm
+python-dotenv
+openpyxl
