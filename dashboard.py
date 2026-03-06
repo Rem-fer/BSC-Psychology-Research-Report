@@ -148,9 +148,7 @@ elif page == "Report":
 
 # LLM chatbot page
 else:
-    # with tab1:
     st.markdown("# LLM insight chat")
-    st.divider()
 
     if "messages" not in st.session_state:
         st.session_state.messages = []
@@ -160,13 +158,23 @@ else:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
 
-    if prompt := st.chat_input("Ask about the study"):
+    # User input
+    prompt = st.chat_input("Ask about the study")
+
+    # Or pre prompted questions
+    st.markdown("**Try asking:**")
+    col1, col2, col3 = st.columns(3)
+    if col1.button("What were the main findings?"):
+        prompt = "What were the main findings?"
+    elif col2.button("Which hypotheses were supported?"):
+        prompt = "Which hypotheses were supported?"
+    elif col3.button("What were the limitations?"):
+        prompt = "What were the limitations?"
+
+    if prompt:
+        # Save prompt to messages and run LLM response
         st.session_state.messages.append({"role": "user", "content": prompt})
-        
         messages = [{"role": "system", "content": system_prompt}] + st.session_state.messages
-
         with st.chat_message("assistant"):
-            reply =  st.write_stream(chat_with_model_stream(messages))
-
+            reply = st.write_stream(chat_with_model_stream(messages))
         st.session_state.messages.append({"role": "assistant", "content": reply})
-
