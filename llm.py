@@ -46,7 +46,7 @@ conclusions = open("content_for_llm/conclusion.txt").read()
 results = json.load(open("content_for_llm/results.json"))
 
 
-MODEL = "claude-sonnet-4-20250514"
+MODEL = "claude-sonnet-4-5"
 KEY = os.getenv("ANTHROPIC_API_KEY")
 
 
